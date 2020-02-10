@@ -1,0 +1,74 @@
+[
+  [
+    "Nuclear Meltdown",
+    "x",
+    "x",
+    "2"
+  ],
+  [
+    "Nebula Drake",
+    "x",
+    "2",
+    "x"
+  ],
+  [
+    "Gas Explosion",
+    "1+x",
+    "x",
+    "1"
+  ],
+  [
+    "Meteor",
+    "1+x",
+    "1",
+    "x"
+  ],
+  [
+    "Magmaquake",
+    "x",
+    "1",
+    "1+x"
+  ],
+  [
+    "Entropy Demon",
+    "x",
+    "1+x",
+    "2"
+  ],
+  [
+    "Verdant Chaos",
+    "1",
+    "x",
+    "1+x"
+  ],
+  [
+    "Aurora Whale",
+    "1+x",
+    "0",
+    "1+x"
+  ],
+  [
+    "Space Bees",
+    "1",
+    "1+x",
+    "x"
+  ],
+  [
+    "Aurora Veil",
+    "2",
+    "x",
+    "x"
+  ],
+  [
+    "Warp Storm",
+    "0",
+    "1+x",
+    "1+x"
+  ],
+  [
+    "Ionic Tornado",
+    "1+x",
+    "1+x",
+    "0"
+  ]
+]

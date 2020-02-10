@@ -1,0 +1,402 @@
+{
+  "2": [
+    "Hallway",
+    "ncnd"
+  ],
+  "3": [
+    "Hallway",
+    "nmnc"
+  ],
+  "4": [
+    "Hallway",
+    "ncnc"
+  ],
+  "5": [
+    "Hallway",
+    "nmnc"
+  ],
+  "6": [
+    "Hallway",
+    "nmnd"
+  ],
+  "7": [
+    "Hallway",
+    "ndnm"
+  ],
+  "8": [
+    "Hallway",
+    "nmnm"
+  ],
+  "9": [
+    "Staircase",
+    "cnmn"
+  ],
+  "10": [
+    "Staircase",
+    "dnmn"
+  ],
+  "11": [
+    "Staircase",
+    "cndn"
+  ],
+  "12": [
+    "Staircase",
+    "cncn"
+  ],
+  "13": [
+    "Staircase",
+    "mnmn"
+  ],
+  "14": [
+    "Staircase",
+    "mncn"
+  ],
+  "15": [
+    "Staircase",
+    "mndn"
+  ],
+  "16": [
+    "Corridor",
+    "nndm"
+  ],
+  "17": [
+    "Corridor",
+    "cdnn"
+  ],
+  "18": [
+    "Corridor",
+    "cnnc"
+  ],
+  "19": [
+    "Corridor",
+    "nncd"
+  ],
+  "20": [
+    "Corridor",
+    "ndmn"
+  ],
+  "21": [
+    "Corridor",
+    "cnnd"
+  ],
+  "22": [
+    "Black Market",
+    "dDnn"
+  ],
+  "23": [
+    "Divination Chamber",
+    "nnCn"
+  ],
+  "24": [
+    "Merchant's Guild",
+    "nDdM"
+  ],
+  "25": [
+    "Wormhole Generator",
+    "MdMn"
+  ],
+  "26": [
+    "Doomsayer",
+    "Mnmn"
+  ],
+  "27": [
+    "Antigravity Cannon",
+    "CnMd"
+  ],
+  "28": [
+    "Time Machine",
+    "Dnnm"
+  ],
+  "29": [
+    "Soothsayer",
+    "Dcnn"
+  ],
+  "30": [
+    "Architect",
+    "nCnd"
+  ],
+  "31": [
+    "Interior decorator",
+    "nnMm"
+  ],
+  "32": [
+    "Treasury",
+    "mDCM"
+  ],
+  "33": [
+    "Market",
+    "DcmC"
+  ],
+  "34": [
+    "Energy Core",
+    "MMDM"
+  ],
+  "35": [
+    "Gravity Generator",
+    "MCCd"
+  ],
+  "36": [
+    "Reinforced Walls",
+    "MCCD"
+  ],
+  "37": [
+    "Gravitational Anchor",
+    "nDnD"
+  ],
+  "38": [
+    "Tavern",
+    "DnDC"
+  ],
+  "39": [
+    "Echo Chamber",
+    "Ddcm"
+  ],
+  "40": [
+    "Armorer",
+    "nCnD"
+  ],
+  "41": [
+    "Generator",
+    "nnMn"
+  ],
+  "42": [
+    "Generator",
+    "nCnn"
+  ],
+  "43": [
+    "Safe Room",
+    "DCnC"
+  ],
+  "44": [
+    "Bunker",
+    "DCDC"
+  ],
+  "45": [
+    "Room With Legs",
+    "mDnc"
+  ],
+  "46": [
+    "Spinning Chamber",
+    "dcmm"
+  ],
+  "47": [
+    "Warping Chamber",
+    "ndcm"
+  ],
+  "48": [
+    "Imposter",
+    "nnmc"
+  ],
+  "49": [
+    "Commander's Chamber",
+    "CDCC"
+  ],
+  "50": [
+    "Engineer's Workshop",
+    "nMcD"
+  ],
+  "51": [
+    "Pilot's Quarters",
+    "mMnD"
+  ],
+  "52": [
+    "Candy Shop",
+    "Mnnc"
+  ],
+  "53": [
+    "Swimming Pool",
+    "ndCn"
+  ],
+  "54": [
+    "Petting Zoo",
+    "dMnn"
+  ],
+  "55": [
+    "Movie Theater",
+    "nncM"
+  ],
+  "56": [
+    "Nuclear Reactor",
+    "nDnD"
+  ],
+  "57": [
+    "Mercenary",
+    "nDCn"
+  ],
+  "58": [
+    "Mercernary",
+    "CnCn"
+  ],
+  "59": [
+    "Mercenary",
+    "MnnD"
+  ],
+  "60": [
+    "Mercenary",
+    "nDnC"
+  ],
+  "61": [
+    "Giant Fan",
+    "DMnd"
+  ],
+  "62": [
+    "Giant Fan",
+    "dCDn"
+  ],
+  "63": [
+    "Construction Crew",
+    "CMcn"
+  ],
+  "64": [
+    "Rocket Engineer",
+    "Mnnd"
+  ],
+  "65": [
+    "Rocket Engineer",
+    "nDdn"
+  ],
+  "66": [
+    "Shuttle",
+    "Mmnn"
+  ],
+  "67": [
+    "Shuttle",
+    "nnMc"
+  ],
+  "68": [
+    "Warp Cannon",
+    "nMnC"
+  ],
+  "69": [
+    "Warp Cannon",
+    "DnDn"
+  ],
+  "70": [
+    "Warp Cannon",
+    "nnMD"
+  ],
+  "71": [
+    "Hydraulic Arm",
+    "nDDn"
+  ],
+  "72": [
+    "Hydraulic Arm",
+    "DnnD"
+  ],
+  "73": [
+    "Watch Tower",
+    "mnDn"
+  ],
+  "74": [
+    "Homeowners Association",
+    "CdCd"
+  ],
+  "75": [
+    "Unhappy Neighbour",
+    "nMcC"
+  ],
+  "76": [
+    "Disco",
+    "cCdM"
+  ],
+  "77": [
+    "Big Vault",
+    "nCMd"
+  ],
+  "78": [
+    "Big Vault",
+    "dCnM"
+  ],
+  "79": [
+    "Big Vault",
+    "dnMC"
+  ],
+  "80": [
+    "Big Vault",
+    "CMdn"
+  ],
+  "81": [
+    "Large Vault",
+    "mMMD"
+  ],
+  "82": [
+    "Large Vault",
+    "CmDC"
+  ],
+  "83": [
+    "Medium Vault",
+    "nnDm"
+  ],
+  "84": [
+    "Medium Vault",
+    "ncMn"
+  ],
+  "85": [
+    "Medium Vault",
+    "dnDn"
+  ],
+  "86": [
+    "Medium Vault",
+    "Cmnn"
+  ],
+  "87": [
+    "Medium Vault",
+    "Mnnm"
+  ],
+  "88": [
+    "Medium Vault",
+    "nmnD"
+  ],
+  "89": [
+    "Small Vault",
+    "nnnc"
+  ],
+  "90": [
+    "Small Vault",
+    "ndnn"
+  ],
+  "91": [
+    "Small Vault",
+    "nnmn"
+  ],
+  "92": [
+    "Small Vault",
+    "cnnn"
+  ],
+  "93": [
+    "Briber's Vault",
+    "Dnnc"
+  ],
+  "94": [
+    "Briber's Vault",
+    "Dmnn"
+  ],
+  "95": [
+    "Cold Vault",
+    "MmDC"
+  ],
+  "96": [
+    "Dynamic Vault",
+    "MCDM"
+  ],
+  "97": [
+    "Entropic Vault",
+    "DcCM"
+  ],
+  "98": [
+    "Candy Vault",
+    "CMMn"
+  ],
+  "99": [
+    "Lonely Vault",
+    "cnCn"
+  ],
+  "100": [
+    "Lonely Vault",
+    "nmnM"
+  ],
+  "101": [
+    "Nuclear Vault",
+    "CndM"
+  ]
+}
