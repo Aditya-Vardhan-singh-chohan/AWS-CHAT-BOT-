@@ -39,35 +39,32 @@ class Disaster:
         self.cross = cross
         self.moon = moon
 
-    def damage(self, x: int, links: Tuple[int, int, int]):
+    def damage(
+        self,
+        x: int,
+        links: Tuple[int, int, int],
+        reduction: int = 0,
+        multiplier: float = 1,
+    ):
         d, c, m = links
+        d_damage = self.diamond_damage(x, d, multiplier)
+        c_damage = self.cross_damage(x, c, multiplier)
+        m_damage = self.moon_damage(x, m, multiplier)
         return (
-            self.diamond_damage(x, d),
-            self.cross_damage(x, c),
-            self.moon_damage(x, m),
+            d_damage,
+            c_damage,
+            m_damage,
+            max(0, d_damage + c_damage + m_damage - reduction),
         )
 
-    def diamond_damage(self, x: int, link: int):
-        return max(0, self.diamond(x) - link)
+    def diamond_damage(self, x: int, link: int, multiplier: float = 1):
+        return max(0, self.diamond(x) * multiplier - link)
 
-    def cross_damage(self, x: int, link: int):
-        return max(0, self.cross(x) - link)
+    def cross_damage(self, x: int, link: int, multiplier: float = 1):
+        return max(0, self.cross(x) * multiplier - link)
 
-    def moon_damage(self, x: int, link: int):
-        return max(0, self.moon(x) - link)
-
-    def total_damage(self, x: int, links: tuple, reduction: int = 0, multiplier=1):
-        d_link, c_link, m_link = links
-        return max(
-            0,
-            (
-                self.diamond_damage(x, d_link)
-                + self.cross_damage(x, c_link)
-                + self.moon_damage(x, m_link)
-            )
-            * multiplier
-            - reduction,
-        )
+    def moon_damage(self, x: int, link: int, multiplier: float = 1):
+        return max(0, self.moon(x) * multiplier - link)
 
 
 class Catastrophe(Disaster):
