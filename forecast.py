@@ -67,24 +67,26 @@ class DisasterForecast:
                 else 0.0
             )
             for dis in possible_dis:
-                d_damage, c_damage, m_damage = dis.damage(x, links)
-                diamond_damage[d_damage * damage_multiplier] += dis_draw_chance
-                cross_damage[c_damage * damage_multiplier] += dis_draw_chance
-                moon_damage[m_damage * damage_multiplier] += dis_draw_chance
-                total_damage[
-                    dis.total_damage(x, links, reduction, damage_multiplier)
-                ] += dis_draw_chance
+                d_damage, c_damage, m_damage, t_damage = dis.damage(
+                    x, links, reduction, damage_multiplier
+                )
+                diamond_damage[d_damage] += dis_draw_chance
+                cross_damage[c_damage] += dis_draw_chance
+                moon_damage[m_damage] += dis_draw_chance
+                total_damage[t_damage] += dis_draw_chance
             catas_draw_chance = (
                 draw_distrib[drawn] * catas_prob * drawn / len(possible_catas)
                 if len(possible_catas) > 0
                 else 0.0
             )
             for catas in possible_catas:
-                d_damage, c_damage, m_damage = catas.damage(x, links)
+                d_damage, c_damage, m_damage, t_damage = catas.damage(
+                    x, links, reduction, damage_multiplier
+                )
                 diamond_damage[d_damage] += catas_draw_chance
                 cross_damage[c_damage] += catas_draw_chance
                 moon_damage[m_damage] += catas_draw_chance
-                total_damage[dis.total_damage(x, links, reduction)] += catas_draw_chance
+                total_damage[t_damage] += catas_draw_chance
         return (
             to_distribution(diamond_damage),
             to_distribution(cross_damage),
