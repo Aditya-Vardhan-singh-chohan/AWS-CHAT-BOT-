@@ -15,8 +15,12 @@ class Connection(Enum):
     GOLD_MOON = "M"
 
 
-def isGolden(c: Connection):
-    return c is GOLD_DIAMOND or c is GOLD_CROSS or c is GOLD_MOON
+def is_golden(c: Connection):
+    return (
+        c is Connection.GOLD_DIAMOND
+        or c is Connection.GOLD_CROSS
+        or c is Connection.GOLD_MOON
+    )
 
 
 def valid_connection(a: Connection, b: Connection):
