@@ -1,4 +1,12 @@
-from rooms import Connection, Room, valid_connection, link_connection, isGolden
+from disastle.rooms import (
+    Connection,
+    Room,
+    valid_connection,
+    link_connection,
+    is_golden,
+    is_matching,
+)
+
 from typing import Tuple
 
 
@@ -127,26 +135,27 @@ class Castle:
 
     def is_powered(self, x: int, y: int):
         powered = True
+        room = self.get(x, y)
         connected_rooms = self.connected(x, y)
         for c_x, c_y in connected_rooms:
             dx, dy = (x - c_x, y - c_y)
             if (dx, dy) == (0, -1):
-                if isGolden(room.up):
+                if is_golden(room.up):
                     powered = powered and is_matching(
                         room.up, connected_rooms[(c_x, c_y)].down
                     )
             elif (dx, dy) == (-1, 0):
-                if isGolden(room.right):
+                if is_golden(room.right):
                     powered = powered and is_matching(
                         room.right, connected_rooms[(c_x, c_y)].left
                     )
             elif (dx, dy) == (0, 1):
-                if isGolden(room.down):
+                if is_golden(room.down):
                     powered = powered and is_matching(
                         room.down, connected_rooms[(c_x, c_y)].up
                     )
             elif (dx, dy) == (1, 0):
-                if isGolden(room.left):
+                if is_golden(room.left):
                     powered = powered and is_matching(
                         room.left, connected_rooms[(c_x, c_y)].right
                     )
