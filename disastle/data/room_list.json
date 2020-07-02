@@ -1,402 +1,1290 @@
-{
-  "2": [
-    "Hallway",
-    "ncnd"
-  ],
-  "3": [
-    "Hallway",
-    "nmnc"
-  ],
-  "4": [
-    "Hallway",
-    "ncnc"
-  ],
-  "5": [
-    "Hallway",
-    "nmnc"
-  ],
-  "6": [
-    "Hallway",
-    "nmnd"
-  ],
-  "7": [
-    "Hallway",
-    "ndnm"
-  ],
-  "8": [
-    "Hallway",
-    "nmnm"
-  ],
-  "9": [
-    "Staircase",
-    "cnmn"
-  ],
-  "10": [
-    "Staircase",
-    "dnmn"
-  ],
-  "11": [
-    "Staircase",
-    "cndn"
-  ],
-  "12": [
-    "Staircase",
-    "cncn"
-  ],
-  "13": [
-    "Staircase",
-    "mnmn"
-  ],
-  "14": [
-    "Staircase",
-    "mncn"
-  ],
-  "15": [
-    "Staircase",
-    "mndn"
-  ],
-  "16": [
-    "Corridor",
-    "nndm"
-  ],
-  "17": [
-    "Corridor",
-    "cdnn"
-  ],
-  "18": [
-    "Corridor",
-    "cnnc"
-  ],
-  "19": [
-    "Corridor",
-    "nncd"
-  ],
-  "20": [
-    "Corridor",
-    "ndmn"
-  ],
-  "21": [
-    "Corridor",
-    "cnnd"
-  ],
-  "22": [
-    "Black Market",
-    "dDnn"
-  ],
-  "23": [
-    "Divination Chamber",
-    "nnCn"
-  ],
-  "24": [
-    "Merchant's Guild",
-    "nDdM"
-  ],
-  "25": [
-    "Wormhole Generator",
-    "MdMn"
-  ],
-  "26": [
-    "Doomsayer",
-    "Mnmn"
-  ],
-  "27": [
-    "Antigravity Cannon",
-    "CnMd"
-  ],
-  "28": [
-    "Time Machine",
-    "Dnnm"
-  ],
-  "29": [
-    "Soothsayer",
-    "Dcnn"
-  ],
-  "30": [
-    "Architect",
-    "nCnd"
-  ],
-  "31": [
-    "Interior decorator",
-    "nnMm"
-  ],
-  "32": [
-    "Treasury",
-    "mDCM"
-  ],
-  "33": [
-    "Market",
-    "DcmC"
-  ],
-  "34": [
-    "Energy Core",
-    "MMDM"
-  ],
-  "35": [
-    "Gravity Generator",
-    "MCCd"
-  ],
-  "36": [
-    "Reinforced Walls",
-    "MCCD"
-  ],
-  "37": [
-    "Gravitational Anchor",
-    "nDnD"
-  ],
-  "38": [
-    "Tavern",
-    "DnDC"
-  ],
-  "39": [
-    "Echo Chamber",
-    "Ddcm"
-  ],
-  "40": [
-    "Armorer",
-    "nCnD"
-  ],
-  "41": [
-    "Generator",
-    "nnMn"
-  ],
-  "42": [
-    "Generator",
-    "nCnn"
-  ],
-  "43": [
-    "Safe Room",
-    "DCnC"
-  ],
-  "44": [
-    "Bunker",
-    "DCDC"
-  ],
-  "45": [
-    "Room With Legs",
-    "mDnc"
-  ],
-  "46": [
-    "Spinning Chamber",
-    "dcmm"
-  ],
-  "47": [
-    "Warping Chamber",
-    "ndcm"
-  ],
-  "48": [
-    "Imposter",
-    "nnmc"
-  ],
-  "49": [
-    "Commander's Chamber",
-    "CDCC"
-  ],
-  "50": [
-    "Engineer's Workshop",
-    "nMcD"
-  ],
-  "51": [
-    "Pilot's Quarters",
-    "mMnD"
-  ],
-  "52": [
-    "Candy Shop",
-    "Mnnc"
-  ],
-  "53": [
-    "Swimming Pool",
-    "ndCn"
-  ],
-  "54": [
-    "Petting Zoo",
-    "dMnn"
-  ],
-  "55": [
-    "Movie Theater",
-    "nncM"
-  ],
-  "56": [
-    "Nuclear Reactor",
-    "nDnD"
-  ],
-  "57": [
-    "Mercenary",
-    "nDCn"
-  ],
-  "58": [
-    "Mercernary",
-    "CnCn"
-  ],
-  "59": [
-    "Mercenary",
-    "MnnD"
-  ],
-  "60": [
-    "Mercenary",
-    "nDnC"
-  ],
-  "61": [
-    "Giant Fan",
-    "DMnd"
-  ],
-  "62": [
-    "Giant Fan",
-    "dCDn"
-  ],
-  "63": [
-    "Construction Crew",
-    "CMcn"
-  ],
-  "64": [
-    "Rocket Engineer",
-    "Mnnd"
-  ],
-  "65": [
-    "Rocket Engineer",
-    "nDdn"
-  ],
-  "66": [
-    "Shuttle",
-    "Mmnn"
-  ],
-  "67": [
-    "Shuttle",
-    "nnMc"
-  ],
-  "68": [
-    "Warp Cannon",
-    "nMnC"
-  ],
-  "69": [
-    "Warp Cannon",
-    "DnDn"
-  ],
-  "70": [
-    "Warp Cannon",
-    "nnMD"
-  ],
-  "71": [
-    "Hydraulic Arm",
-    "nDDn"
-  ],
-  "72": [
-    "Hydraulic Arm",
-    "DnnD"
-  ],
-  "73": [
-    "Watch Tower",
-    "mnDn"
-  ],
-  "74": [
-    "Homeowners Association",
-    "CdCd"
-  ],
-  "75": [
-    "Unhappy Neighbour",
-    "nMcC"
-  ],
-  "76": [
-    "Disco",
-    "cCdM"
-  ],
-  "77": [
-    "Big Vault",
-    "nCMd"
-  ],
-  "78": [
-    "Big Vault",
-    "dCnM"
-  ],
-  "79": [
-    "Big Vault",
-    "dnMC"
-  ],
-  "80": [
-    "Big Vault",
-    "CMdn"
-  ],
-  "81": [
-    "Large Vault",
-    "mMMD"
-  ],
-  "82": [
-    "Large Vault",
-    "CmDC"
-  ],
-  "83": [
-    "Medium Vault",
-    "nnDm"
-  ],
-  "84": [
-    "Medium Vault",
-    "ncMn"
-  ],
-  "85": [
-    "Medium Vault",
-    "dnDn"
-  ],
-  "86": [
-    "Medium Vault",
-    "Cmnn"
-  ],
-  "87": [
-    "Medium Vault",
-    "Mnnm"
-  ],
-  "88": [
-    "Medium Vault",
-    "nmnD"
-  ],
-  "89": [
-    "Small Vault",
-    "nnnc"
-  ],
-  "90": [
-    "Small Vault",
-    "ndnn"
-  ],
-  "91": [
-    "Small Vault",
-    "nnmn"
-  ],
-  "92": [
-    "Small Vault",
-    "cnnn"
-  ],
-  "93": [
-    "Briber's Vault",
-    "Dnnc"
-  ],
-  "94": [
-    "Briber's Vault",
-    "Dmnn"
-  ],
-  "95": [
-    "Cold Vault",
-    "MmDC"
-  ],
-  "96": [
-    "Dynamic Vault",
-    "MCDM"
-  ],
-  "97": [
-    "Entropic Vault",
-    "DcCM"
-  ],
-  "98": [
-    "Candy Vault",
-    "CMMn"
-  ],
-  "99": [
-    "Lonely Vault",
-    "cnCn"
-  ],
-  "100": [
-    "Lonely Vault",
-    "nmnM"
-  ],
-  "101": [
-    "Nuclear Vault",
-    "CndM"
-  ]
-}
+[
+  {
+    "id": "2",
+    "name": "Hallway",
+    "up": "None",
+    "right": {
+      "Cross": false
+    },
+    "down": "None",
+    "left": {
+      "Diamond": false
+    }
+  },
+  {
+    "id": "3",
+    "name": "Hallway",
+    "up": "None",
+    "right": {
+      "Moon": false
+    },
+    "down": "None",
+    "left": {
+      "Cross": false
+    }
+  },
+  {
+    "id": "4",
+    "name": "Hallway",
+    "up": "None",
+    "right": {
+      "Cross": false
+    },
+    "down": "None",
+    "left": {
+      "Cross": false
+    }
+  },
+  {
+    "id": "5",
+    "name": "Hallway",
+    "up": "None",
+    "right": {
+      "Moon": false
+    },
+    "down": "None",
+    "left": {
+      "Cross": false
+    }
+  },
+  {
+    "id": "6",
+    "name": "Hallway",
+    "up": "None",
+    "right": {
+      "Moon": false
+    },
+    "down": "None",
+    "left": {
+      "Diamond": false
+    }
+  },
+  {
+    "id": "7",
+    "name": "Hallway",
+    "up": "None",
+    "right": {
+      "Diamond": false
+    },
+    "down": "None",
+    "left": {
+      "Moon": false
+    }
+  },
+  {
+    "id": "8",
+    "name": "Hallway",
+    "up": "None",
+    "right": {
+      "Moon": false
+    },
+    "down": "None",
+    "left": {
+      "Moon": false
+    }
+  },
+  {
+    "id": "9",
+    "name": "Staircase",
+    "up": {
+      "Cross": false
+    },
+    "right": "None",
+    "down": {
+      "Moon": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "10",
+    "name": "Staircase",
+    "up": {
+      "Diamond": false
+    },
+    "right": "None",
+    "down": {
+      "Moon": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "11",
+    "name": "Staircase",
+    "up": {
+      "Cross": false
+    },
+    "right": "None",
+    "down": {
+      "Diamond": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "12",
+    "name": "Staircase",
+    "up": {
+      "Cross": false
+    },
+    "right": "None",
+    "down": {
+      "Cross": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "13",
+    "name": "Staircase",
+    "up": {
+      "Moon": false
+    },
+    "right": "None",
+    "down": {
+      "Moon": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "14",
+    "name": "Staircase",
+    "up": {
+      "Moon": false
+    },
+    "right": "None",
+    "down": {
+      "Cross": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "15",
+    "name": "Staircase",
+    "up": {
+      "Moon": false
+    },
+    "right": "None",
+    "down": {
+      "Diamond": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "16",
+    "name": "Corridor",
+    "up": "None",
+    "right": "None",
+    "down": {
+      "Diamond": false
+    },
+    "left": {
+      "Moon": false
+    }
+  },
+  {
+    "id": "17",
+    "name": "Corridor",
+    "up": {
+      "Cross": false
+    },
+    "right": {
+      "Diamond": false
+    },
+    "down": "None",
+    "left": "None"
+  },
+  {
+    "id": "18",
+    "name": "Corridor",
+    "up": {
+      "Cross": false
+    },
+    "right": "None",
+    "down": "None",
+    "left": {
+      "Cross": false
+    }
+  },
+  {
+    "id": "19",
+    "name": "Corridor",
+    "up": "None",
+    "right": "None",
+    "down": {
+      "Cross": false
+    },
+    "left": {
+      "Diamond": false
+    }
+  },
+  {
+    "id": "20",
+    "name": "Corridor",
+    "up": "None",
+    "right": {
+      "Diamond": false
+    },
+    "down": {
+      "Moon": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "21",
+    "name": "Corridor",
+    "up": {
+      "Cross": false
+    },
+    "right": "None",
+    "down": "None",
+    "left": {
+      "Diamond": false
+    }
+  },
+  {
+    "id": "22",
+    "name": "Black Market",
+    "up": {
+      "Diamond": false
+    },
+    "right": {
+      "Diamond": true
+    },
+    "down": "None",
+    "left": "None"
+  },
+  {
+    "id": "23",
+    "name": "Divination Chamber",
+    "up": "None",
+    "right": "None",
+    "down": {
+      "Cross": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "24",
+    "name": "Merchant's Guild",
+    "up": "None",
+    "right": {
+      "Diamond": true
+    },
+    "down": {
+      "Diamond": false
+    },
+    "left": {
+      "Moon": true
+    }
+  },
+  {
+    "id": "25",
+    "name": "Wormhole Generator",
+    "up": {
+      "Moon": true
+    },
+    "right": {
+      "Diamond": false
+    },
+    "down": {
+      "Moon": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "26",
+    "name": "Doomsayer",
+    "up": {
+      "Moon": true
+    },
+    "right": "None",
+    "down": {
+      "Moon": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "27",
+    "name": "Antigravity Cannon",
+    "up": {
+      "Cross": true
+    },
+    "right": "None",
+    "down": {
+      "Moon": true
+    },
+    "left": {
+      "Diamond": false
+    }
+  },
+  {
+    "id": "28",
+    "name": "Time Machine",
+    "up": {
+      "Diamond": true
+    },
+    "right": "None",
+    "down": "None",
+    "left": {
+      "Moon": false
+    }
+  },
+  {
+    "id": "29",
+    "name": "Soothsayer",
+    "up": {
+      "Diamond": true
+    },
+    "right": {
+      "Cross": false
+    },
+    "down": "None",
+    "left": "None"
+  },
+  {
+    "id": "30",
+    "name": "Architect",
+    "up": "None",
+    "right": {
+      "Cross": true
+    },
+    "down": "None",
+    "left": {
+      "Diamond": false
+    }
+  },
+  {
+    "id": "31",
+    "name": "Interior decorator",
+    "up": "None",
+    "right": "None",
+    "down": {
+      "Moon": true
+    },
+    "left": {
+      "Moon": false
+    }
+  },
+  {
+    "id": "32",
+    "name": "Treasury",
+    "up": {
+      "Moon": false
+    },
+    "right": {
+      "Diamond": true
+    },
+    "down": {
+      "Cross": true
+    },
+    "left": {
+      "Moon": true
+    }
+  },
+  {
+    "id": "33",
+    "name": "Market",
+    "up": {
+      "Diamond": true
+    },
+    "right": {
+      "Cross": false
+    },
+    "down": {
+      "Moon": false
+    },
+    "left": {
+      "Cross": true
+    }
+  },
+  {
+    "id": "34",
+    "name": "Energy Core",
+    "up": {
+      "Moon": true
+    },
+    "right": {
+      "Moon": true
+    },
+    "down": {
+      "Diamond": true
+    },
+    "left": {
+      "Moon": true
+    }
+  },
+  {
+    "id": "35",
+    "name": "Gravity Generator",
+    "up": {
+      "Moon": true
+    },
+    "right": {
+      "Cross": true
+    },
+    "down": {
+      "Cross": true
+    },
+    "left": {
+      "Diamond": false
+    }
+  },
+  {
+    "id": "36",
+    "name": "Reinforced Walls",
+    "up": {
+      "Moon": true
+    },
+    "right": {
+      "Cross": true
+    },
+    "down": {
+      "Cross": true
+    },
+    "left": {
+      "Diamond": true
+    }
+  },
+  {
+    "id": "37",
+    "name": "Gravitational Anchor",
+    "up": "None",
+    "right": {
+      "Diamond": true
+    },
+    "down": "None",
+    "left": {
+      "Diamond": true
+    }
+  },
+  {
+    "id": "38",
+    "name": "Tavern",
+    "up": {
+      "Diamond": true
+    },
+    "right": "None",
+    "down": {
+      "Diamond": true
+    },
+    "left": {
+      "Cross": true
+    }
+  },
+  {
+    "id": "39",
+    "name": "Echo Chamber",
+    "up": {
+      "Diamond": true
+    },
+    "right": {
+      "Diamond": false
+    },
+    "down": {
+      "Cross": false
+    },
+    "left": {
+      "Moon": false
+    }
+  },
+  {
+    "id": "40",
+    "name": "Armorer",
+    "up": "None",
+    "right": {
+      "Cross": true
+    },
+    "down": "None",
+    "left": {
+      "Diamond": true
+    }
+  },
+  {
+    "id": "41",
+    "name": "Generator",
+    "up": "None",
+    "right": "None",
+    "down": {
+      "Moon": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "42",
+    "name": "Generator",
+    "up": "None",
+    "right": {
+      "Cross": true
+    },
+    "down": "None",
+    "left": "None"
+  },
+  {
+    "id": "43",
+    "name": "Safe Room",
+    "up": {
+      "Diamond": true
+    },
+    "right": {
+      "Cross": true
+    },
+    "down": "None",
+    "left": {
+      "Cross": true
+    }
+  },
+  {
+    "id": "44",
+    "name": "Bunker",
+    "up": {
+      "Diamond": true
+    },
+    "right": {
+      "Cross": true
+    },
+    "down": {
+      "Diamond": true
+    },
+    "left": {
+      "Cross": true
+    }
+  },
+  {
+    "id": "45",
+    "name": "Room With Legs",
+    "up": {
+      "Moon": false
+    },
+    "right": {
+      "Diamond": true
+    },
+    "down": "None",
+    "left": {
+      "Cross": false
+    }
+  },
+  {
+    "id": "46",
+    "name": "Spinning Chamber",
+    "up": {
+      "Diamond": false
+    },
+    "right": {
+      "Cross": false
+    },
+    "down": {
+      "Moon": false
+    },
+    "left": {
+      "Moon": false
+    }
+  },
+  {
+    "id": "47",
+    "name": "Warping Chamber",
+    "up": "None",
+    "right": {
+      "Diamond": false
+    },
+    "down": {
+      "Cross": false
+    },
+    "left": {
+      "Moon": false
+    }
+  },
+  {
+    "id": "48",
+    "name": "Imposter",
+    "up": "None",
+    "right": "None",
+    "down": {
+      "Moon": false
+    },
+    "left": {
+      "Cross": false
+    }
+  },
+  {
+    "id": "49",
+    "name": "Commander's Chamber",
+    "up": {
+      "Cross": true
+    },
+    "right": {
+      "Diamond": true
+    },
+    "down": {
+      "Cross": true
+    },
+    "left": {
+      "Cross": true
+    }
+  },
+  {
+    "id": "50",
+    "name": "Engineer's Workshop",
+    "up": "None",
+    "right": {
+      "Moon": true
+    },
+    "down": {
+      "Cross": false
+    },
+    "left": {
+      "Diamond": true
+    }
+  },
+  {
+    "id": "51",
+    "name": "Pilot's Quarters",
+    "up": {
+      "Moon": false
+    },
+    "right": {
+      "Moon": true
+    },
+    "down": "None",
+    "left": {
+      "Diamond": true
+    }
+  },
+  {
+    "id": "52",
+    "name": "Candy Shop",
+    "up": {
+      "Moon": true
+    },
+    "right": "None",
+    "down": "None",
+    "left": {
+      "Cross": false
+    }
+  },
+  {
+    "id": "53",
+    "name": "Swimming Pool",
+    "up": "None",
+    "right": {
+      "Diamond": false
+    },
+    "down": {
+      "Cross": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "54",
+    "name": "Petting Zoo",
+    "up": {
+      "Diamond": false
+    },
+    "right": {
+      "Moon": true
+    },
+    "down": "None",
+    "left": "None"
+  },
+  {
+    "id": "55",
+    "name": "Movie Theater",
+    "up": "None",
+    "right": "None",
+    "down": {
+      "Cross": false
+    },
+    "left": {
+      "Moon": true
+    }
+  },
+  {
+    "id": "56",
+    "name": "Nuclear Reactor",
+    "up": "None",
+    "right": {
+      "Diamond": true
+    },
+    "down": "None",
+    "left": {
+      "Diamond": true
+    }
+  },
+  {
+    "id": "57",
+    "name": "Mercenary",
+    "up": "None",
+    "right": {
+      "Diamond": true
+    },
+    "down": {
+      "Cross": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "58",
+    "name": "Mercernary",
+    "up": {
+      "Cross": true
+    },
+    "right": "None",
+    "down": {
+      "Cross": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "59",
+    "name": "Mercenary",
+    "up": {
+      "Moon": true
+    },
+    "right": "None",
+    "down": "None",
+    "left": {
+      "Diamond": true
+    }
+  },
+  {
+    "id": "60",
+    "name": "Mercenary",
+    "up": "None",
+    "right": {
+      "Diamond": true
+    },
+    "down": "None",
+    "left": {
+      "Cross": true
+    }
+  },
+  {
+    "id": "61",
+    "name": "Giant Fan",
+    "up": {
+      "Diamond": true
+    },
+    "right": {
+      "Moon": true
+    },
+    "down": "None",
+    "left": {
+      "Diamond": false
+    }
+  },
+  {
+    "id": "62",
+    "name": "Giant Fan",
+    "up": {
+      "Diamond": false
+    },
+    "right": {
+      "Cross": true
+    },
+    "down": {
+      "Diamond": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "63",
+    "name": "Construction Crew",
+    "up": {
+      "Cross": true
+    },
+    "right": {
+      "Moon": true
+    },
+    "down": {
+      "Cross": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "64",
+    "name": "Rocket Engineer",
+    "up": {
+      "Moon": true
+    },
+    "right": "None",
+    "down": "None",
+    "left": {
+      "Diamond": false
+    }
+  },
+  {
+    "id": "65",
+    "name": "Rocket Engineer",
+    "up": "None",
+    "right": {
+      "Diamond": true
+    },
+    "down": {
+      "Diamond": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "66",
+    "name": "Shuttle",
+    "up": {
+      "Moon": true
+    },
+    "right": {
+      "Moon": false
+    },
+    "down": "None",
+    "left": "None"
+  },
+  {
+    "id": "67",
+    "name": "Shuttle",
+    "up": "None",
+    "right": "None",
+    "down": {
+      "Moon": true
+    },
+    "left": {
+      "Cross": false
+    }
+  },
+  {
+    "id": "68",
+    "name": "Warp Cannon",
+    "up": "None",
+    "right": {
+      "Moon": true
+    },
+    "down": "None",
+    "left": {
+      "Cross": true
+    }
+  },
+  {
+    "id": "69",
+    "name": "Warp Cannon",
+    "up": {
+      "Diamond": true
+    },
+    "right": "None",
+    "down": {
+      "Diamond": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "70",
+    "name": "Warp Cannon",
+    "up": "None",
+    "right": "None",
+    "down": {
+      "Moon": true
+    },
+    "left": {
+      "Diamond": true
+    }
+  },
+  {
+    "id": "71",
+    "name": "Hydraulic Arm",
+    "up": "None",
+    "right": {
+      "Diamond": true
+    },
+    "down": {
+      "Diamond": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "72",
+    "name": "Hydraulic Arm",
+    "up": {
+      "Diamond": true
+    },
+    "right": "None",
+    "down": "None",
+    "left": {
+      "Diamond": true
+    }
+  },
+  {
+    "id": "73",
+    "name": "Watch Tower",
+    "up": {
+      "Moon": false
+    },
+    "right": "None",
+    "down": {
+      "Diamond": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "74",
+    "name": "Homeowners Association",
+    "up": {
+      "Cross": true
+    },
+    "right": {
+      "Diamond": false
+    },
+    "down": {
+      "Cross": true
+    },
+    "left": {
+      "Diamond": false
+    }
+  },
+  {
+    "id": "75",
+    "name": "Unhappy Neighbour",
+    "up": "None",
+    "right": {
+      "Moon": true
+    },
+    "down": {
+      "Cross": false
+    },
+    "left": {
+      "Cross": true
+    }
+  },
+  {
+    "id": "76",
+    "name": "Disco",
+    "up": {
+      "Cross": false
+    },
+    "right": {
+      "Cross": true
+    },
+    "down": {
+      "Diamond": false
+    },
+    "left": {
+      "Moon": true
+    }
+  },
+  {
+    "id": "77",
+    "name": "Big Vault",
+    "up": "None",
+    "right": {
+      "Cross": true
+    },
+    "down": {
+      "Moon": true
+    },
+    "left": {
+      "Diamond": false
+    }
+  },
+  {
+    "id": "78",
+    "name": "Big Vault",
+    "up": {
+      "Diamond": false
+    },
+    "right": {
+      "Cross": true
+    },
+    "down": "None",
+    "left": {
+      "Moon": true
+    }
+  },
+  {
+    "id": "79",
+    "name": "Big Vault",
+    "up": {
+      "Diamond": false
+    },
+    "right": "None",
+    "down": {
+      "Moon": true
+    },
+    "left": {
+      "Cross": true
+    }
+  },
+  {
+    "id": "80",
+    "name": "Big Vault",
+    "up": {
+      "Cross": true
+    },
+    "right": {
+      "Moon": true
+    },
+    "down": {
+      "Diamond": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "81",
+    "name": "Large Vault",
+    "up": {
+      "Moon": false
+    },
+    "right": {
+      "Moon": true
+    },
+    "down": {
+      "Moon": true
+    },
+    "left": {
+      "Diamond": true
+    }
+  },
+  {
+    "id": "82",
+    "name": "Large Vault",
+    "up": {
+      "Cross": true
+    },
+    "right": {
+      "Moon": false
+    },
+    "down": {
+      "Diamond": true
+    },
+    "left": {
+      "Cross": true
+    }
+  },
+  {
+    "id": "83",
+    "name": "Medium Vault",
+    "up": "None",
+    "right": "None",
+    "down": {
+      "Diamond": true
+    },
+    "left": {
+      "Moon": false
+    }
+  },
+  {
+    "id": "84",
+    "name": "Medium Vault",
+    "up": "None",
+    "right": {
+      "Cross": false
+    },
+    "down": {
+      "Moon": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "85",
+    "name": "Medium Vault",
+    "up": {
+      "Diamond": false
+    },
+    "right": "None",
+    "down": {
+      "Diamond": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "86",
+    "name": "Medium Vault",
+    "up": {
+      "Cross": true
+    },
+    "right": {
+      "Moon": false
+    },
+    "down": "None",
+    "left": "None"
+  },
+  {
+    "id": "87",
+    "name": "Medium Vault",
+    "up": {
+      "Moon": true
+    },
+    "right": "None",
+    "down": "None",
+    "left": {
+      "Moon": false
+    }
+  },
+  {
+    "id": "88",
+    "name": "Medium Vault",
+    "up": "None",
+    "right": {
+      "Moon": false
+    },
+    "down": "None",
+    "left": {
+      "Diamond": true
+    }
+  },
+  {
+    "id": "89",
+    "name": "Small Vault",
+    "up": "None",
+    "right": "None",
+    "down": "None",
+    "left": {
+      "Cross": false
+    }
+  },
+  {
+    "id": "90",
+    "name": "Small Vault",
+    "up": "None",
+    "right": {
+      "Diamond": false
+    },
+    "down": "None",
+    "left": "None"
+  },
+  {
+    "id": "91",
+    "name": "Small Vault",
+    "up": "None",
+    "right": "None",
+    "down": {
+      "Moon": false
+    },
+    "left": "None"
+  },
+  {
+    "id": "92",
+    "name": "Small Vault",
+    "up": {
+      "Cross": false
+    },
+    "right": "None",
+    "down": "None",
+    "left": "None"
+  },
+  {
+    "id": "93",
+    "name": "Briber's Vault",
+    "up": {
+      "Diamond": true
+    },
+    "right": "None",
+    "down": "None",
+    "left": {
+      "Cross": false
+    }
+  },
+  {
+    "id": "94",
+    "name": "Briber's Vault",
+    "up": {
+      "Diamond": true
+    },
+    "right": {
+      "Moon": false
+    },
+    "down": "None",
+    "left": "None"
+  },
+  {
+    "id": "95",
+    "name": "Cold Vault",
+    "up": {
+      "Moon": true
+    },
+    "right": {
+      "Moon": false
+    },
+    "down": {
+      "Diamond": true
+    },
+    "left": {
+      "Cross": true
+    }
+  },
+  {
+    "id": "96",
+    "name": "Dynamic Vault",
+    "up": {
+      "Moon": true
+    },
+    "right": {
+      "Cross": true
+    },
+    "down": {
+      "Diamond": true
+    },
+    "left": {
+      "Moon": true
+    }
+  },
+  {
+    "id": "97",
+    "name": "Entropic Vault",
+    "up": {
+      "Diamond": true
+    },
+    "right": {
+      "Cross": false
+    },
+    "down": {
+      "Cross": true
+    },
+    "left": {
+      "Moon": true
+    }
+  },
+  {
+    "id": "98",
+    "name": "Candy Vault",
+    "up": {
+      "Cross": true
+    },
+    "right": {
+      "Moon": true
+    },
+    "down": {
+      "Moon": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "99",
+    "name": "Lonely Vault",
+    "up": {
+      "Cross": false
+    },
+    "right": "None",
+    "down": {
+      "Cross": true
+    },
+    "left": "None"
+  },
+  {
+    "id": "100",
+    "name": "Lonely Vault",
+    "up": "None",
+    "right": {
+      "Moon": false
+    },
+    "down": "None",
+    "left": {
+      "Moon": true
+    }
+  },
+  {
+    "id": "101",
+    "name": "Nuclear Vault",
+    "up": {
+      "Cross": true
+    },
+    "right": "None",
+    "down": {
+      "Diamond": false
+    },
+    "left": {
+      "Moon": true
+    }
+  }
+]

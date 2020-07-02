@@ -1,80 +1,197 @@
 [
-  [
-    "The 13th Seal",
-    "2x",
-    "2x",
-    "2x"
-  ],
-  [
-    "Voidweavers",
-    "1+x",
-    "1",
-    "x"
-  ],
-  [
-    "Economic Crash",
-    "1+x",
-    "1",
-    "x"
-  ],
-  [
-    "Doom",
-    "2",
-    "x",
-    "x"
-  ],
-  [
-    "The Starchild",
-    "x",
-    "x",
-    "2"
-  ],
-  [
-    "Cosmic Koala",
-    "1",
-    "x",
-    "1+x"
-  ],
-  [
-    "Golden Meteor",
-    "1+x",
-    "0",
-    "1+x"
-  ],
-  [
-    "Ancient Awakening",
-    "x",
-    "1",
-    "1+x"
-  ],
-  [
-    "Extradimensional Rift",
-    "0",
-    "1+x",
-    "1+x"
-  ],
-  [
-    "Cult Of Doom",
-    "1",
-    "1+x",
-    "x"
-  ],
-  [
-    "Time Anomaly",
-    "1+x",
-    "0",
-    "1+x"
-  ],
-  [
-    "Celestial Goddess",
-    "x",
-    "1+x",
-    "1"
-  ],
-  [
-    "The Singularity",
-    "x",
-    "2",
-    "x"
-  ]
+  {
+    "name": "The 13th Seal",
+    "diamond_damage": [
+      0,
+      2
+    ],
+    "cross_damage": [
+      0,
+      2
+    ],
+    "moon_damage": [
+      0,
+      2
+    ]
+  },
+  {
+    "name": "Voidweavers",
+    "diamond_damage": [
+      1,
+      1
+    ],
+    "cross_damage": [
+      1,
+      0
+    ],
+    "moon_damage": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "Economic Crash",
+    "diamond_damage": [
+      1,
+      1
+    ],
+    "cross_damage": [
+      1,
+      0
+    ],
+    "moon_damage": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "Doom",
+    "diamond_damage": [
+      2,
+      0
+    ],
+    "cross_damage": [
+      0,
+      1
+    ],
+    "moon_damage": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "The Starchild",
+    "diamond_damage": [
+      0,
+      1
+    ],
+    "cross_damage": [
+      0,
+      1
+    ],
+    "moon_damage": [
+      2,
+      0
+    ]
+  },
+  {
+    "name": "Cosmic Koala",
+    "diamond_damage": [
+      1,
+      0
+    ],
+    "cross_damage": [
+      0,
+      1
+    ],
+    "moon_damage": [
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Golden Meteor",
+    "diamond_damage": [
+      1,
+      1
+    ],
+    "cross_damage": [
+      0,
+      0
+    ],
+    "moon_damage": [
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Ancient Awakening",
+    "diamond_damage": [
+      0,
+      1
+    ],
+    "cross_damage": [
+      1,
+      0
+    ],
+    "moon_damage": [
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Extradimensional Rift",
+    "diamond_damage": [
+      0,
+      0
+    ],
+    "cross_damage": [
+      1,
+      1
+    ],
+    "moon_damage": [
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Cult Of Doom",
+    "diamond_damage": [
+      1,
+      0
+    ],
+    "cross_damage": [
+      1,
+      1
+    ],
+    "moon_damage": [
+      0,
+      1
+    ]
+  },
+  {
+    "name": "Time Anomaly",
+    "diamond_damage": [
+      1,
+      1
+    ],
+    "cross_damage": [
+      0,
+      0
+    ],
+    "moon_damage": [
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Celestial Goddess",
+    "diamond_damage": [
+      0,
+      1
+    ],
+    "cross_damage": [
+      1,
+      1
+    ],
+    "moon_damage": [
+      1,
+      0
+    ]
+  },
+  {
+    "name": "The Singularity",
+    "diamond_damage": [
+      0,
+      1
+    ],
+    "cross_damage": [
+      2,
+      0
+    ],
+    "moon_damage": [
+      0,
+      1
+    ]
+  }
 ]
