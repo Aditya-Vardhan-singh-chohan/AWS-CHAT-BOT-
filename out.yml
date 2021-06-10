@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: An AWS Lambda application that calls the Lambda API.
+Resources:
+  function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda_function.lambda_handler
+      Runtime: python3.8
+      CodeUri: s3://lambda-artifacts-d159735235c39065/04b75b3d211a35ca3783f874ab74ef53
+      Description: Call the AWS Lambda API
+      Timeout: 10
+      Policies:
+      - AWSLambda_FullAccess
+      - AmazonDynamoDBFullAccess
+      - AWSXrayWriteOnlyAccess
+      Tracing: Active
+      Layers:
+      - Ref: libs
+  libs:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: blank-python-lib
+      Description: Dependencies for the blank-python sample app.
+      ContentUri: s3://lambda-artifacts-d159735235c39065/fb9bc86e93e75f260af8e1176733549a
+      CompatibleRuntimes:
+      - python3.8

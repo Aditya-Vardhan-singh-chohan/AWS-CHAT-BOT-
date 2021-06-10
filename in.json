@@ -1,0 +1,15 @@
+{
+    "_action_1": "CREATE_LOBBY",
+    "_action_2": "JOIN_LOBBY",
+    "_action_3": "READY_LOBBY",
+    "_action_4": "START_GAME",
+    "action": "ACTION_SHOP",
+    "_username_1": "user1",
+    "_username_2": "user2",
+    "_throne_room_id_1": 101,
+    "_throne_room_id_2": 102,
+    "player_id": "2560d328-2cdc-4b7a-9341-393b254914fd",
+    "_player_id_2": "b056c1ed-a6ca-44bb-9a37-5fa9ea52fba2",
+    "game_id": "104a4ebb-c778-4e46-ae6c-e17357804d30",
+    "game_timestamp": 1623332009
+}

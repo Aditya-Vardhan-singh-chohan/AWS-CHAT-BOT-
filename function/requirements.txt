@@ -1,0 +1,5 @@
+jsonpickle
+aws-xray-sdk
+botocore==1.20.75
+
+numpy

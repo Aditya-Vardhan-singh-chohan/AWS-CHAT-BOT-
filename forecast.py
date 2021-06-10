@@ -1,17 +1,16 @@
 from collections import defaultdict
 from math import factorial
-from typing import Dict, List, Tuple
+from typing import Dict, Tuple
 
-from disastle import disasters
-from disastle.rooms import Connection
+import disasters
 
 
 class DisasterForecast:
     def __init__(self, num_disasters: int, num_catastrophes: int):
         self.num_disasters = num_disasters
         self.num_catastrophes = num_catastrophes
-        self.prev_disasters: List[str] = []
-        self.prev_catastrophes: List[str] = []
+        self.prev_disasters: list[str] = []
+        self.prev_catastrophes: list[str] = []
 
     def draw_disaster(self, *name: str):
         self.prev_disasters += list(name)
@@ -33,7 +32,9 @@ class DisasterForecast:
             for catas in disasters.all_catastrophes():
                 if catas.name not in self.prev_catastrophes:
                     possible_catas.append(catas)
-        num_both_dis_catas = self.num_disasters_left() + self.num_catastrophes_left()
+        num_both_dis_catas = (
+            self.num_disasters_left() + self.num_catastrophes_left()
+        )
         dis_prob = (
             float(self.num_disasters_left() ** 2)
             / (num_both_dis_catas * len(possible_dis))
@@ -49,7 +50,10 @@ class DisasterForecast:
         return ((dis_prob, possible_dis), (catas_prob, possible_catas))
 
     def damage_distribution(
-        self, deck: int, links: Tuple[int, int, int], reduction: int = 0,
+        self,
+        deck: int,
+        links: Tuple[int, int, int],
+        reduction: int = 0,
     ):
         diamond_link, cross_link, moon_link = links
         diamond_damage: Dict[int, float] = defaultdict(lambda: 0.0)
@@ -58,7 +62,10 @@ class DisasterForecast:
         total_damage: Dict[int, float] = defaultdict(lambda: 0.0)
         x = len(self.prev_disasters) + len(self.prev_catastrophes)
         draw_distrib = self.disaster_distribution(deck)
-        (dis_prob, possible_dis), (catas_prob, possible_catas) = self.disasters_prob()
+        (dis_prob, possible_dis), (
+            catas_prob,
+            possible_catas,
+        ) = self.disasters_prob()
         for drawn in draw_distrib:
             damage_multiplier = drawn * (drawn + 1) / 2
             dis_draw_chance = (
@@ -97,7 +104,9 @@ class DisasterForecast:
     def expected_damage(
         self, deck: int, links: Tuple[int, int, int], reduction: int = 0
     ):
-        diamond, cross, moon, total = self.damage_distribution(deck, links, reduction)
+        diamond, cross, moon, total = self.damage_distribution(
+            deck, links, reduction
+        )
         expected = (
             expected_value(diamond),
             expected_value(cross),
@@ -115,12 +124,20 @@ class DisasterForecast:
         redeal_prob = 1 - no_dis_prob - one_dis_prob
         result_distribution = defaultdict(lambda: 0.0)
         result_distribution[0] = no_dis_prob
-        one_exploding_distribution = exploding_distribution(1, dis_left - 1, deck)
+        one_exploding_distribution = exploding_distribution(
+            1, dis_left - 1, deck
+        )
         for e in one_exploding_distribution:
-            result_distribution[1 + e] += one_dis_prob * one_exploding_distribution[e]
-        redeal_exploding_distribution = exploding_distribution(4, dis_left - 1, deck)
+            result_distribution[1 + e] += (
+                one_dis_prob * one_exploding_distribution[e]
+            )
+        redeal_exploding_distribution = exploding_distribution(
+            4, dis_left - 1, deck
+        )
         for e in redeal_exploding_distribution:
-            result_distribution[1 + e] += redeal_prob * redeal_exploding_distribution[e]
+            result_distribution[1 + e] += (
+                redeal_prob * redeal_exploding_distribution[e]
+            )
         return result_distribution
 
 
@@ -148,7 +165,9 @@ def exploding_distribution(explodes: int, subjects: int, objects: int):
     pos_distribution = to_distribution(exploding_pos_counter)
     result_distribution = defaultdict(lambda: 0.0)
     for e in range(min(explodes, subjects)):
-        child_distribution = exploding_distribution(e, subjects - e, objects - explodes)
+        child_distribution = exploding_distribution(
+            e, subjects - e, objects - explodes
+        )
         for child_e in child_distribution:
             result_distribution[e + child_e] += (
                 pos_distribution[e] * child_distribution[child_e]
@@ -184,16 +203,16 @@ def num_different_positions(objects: int, slots: int):
     return factorial(slots) / factorial(slots - objects) / objects
 
 
-@staticmethod
-def disaster_noredeal_prob(dis: int, deck: int, cards: int):
-    if cards == 0 or dis == 0 or deck == 0:
-        return {0: 1.0}
-    result = {1: float(dis) / deck, 0: float(deck - dis) / deck}
-    if cards == 1:
-        return result
-    has_dist_prob = disaster_noredeal_prob(dis - 1, deck - 1, cards - 1)
-    no_dist_prob = disaster_noredeal_prob(dis, deck - 1, cards - 1)
-    return
+# @staticmethod
+# def disaster_noredeal_prob(dis: int, deck: int, cards: int):
+#    if cards == 0 or dis == 0 or deck == 0:
+#        return {0: 1.0}
+#    result = {1: float(dis) / deck, 0: float(deck - dis) / deck}
+#    if cards == 1:
+#        return result
+#    has_dist_prob = disaster_noredeal_prob(dis - 1, deck - 1, cards - 1)
+#    no_dist_prob = disaster_noredeal_prob(dis, deck - 1, cards - 1)
+#    return
 
 
 def expected_value(distribution: dict):
